@@ -1,18 +1,18 @@
-@font-face
-{
-font-family: ledFont;
-src: url('POCKC___.TTF');
+@font-face{
+	
+	font-family: ledFont;
+	src: url('POCKC___.TTF');
      
 }
 
-#clock
-{
-font-family:ledFont;
-font-size: 44px;
-background : #ddf;
-padding : 10px;
-border : solid black 2px;
-border-radius : 10px;
-width : 300px;
-text-align : center;
+#clock{
+	
+	font-family:ledFont;
+	font-size: 44px;
+	background : #ddf;
+	padding : 10px;
+	border : solid black 2px;
+	border-radius : 10px;
+	width : 300px;
+	text-align : center;
 }
