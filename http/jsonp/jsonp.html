@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8"/>
+        <title>JSONP IP goelocation lookup</title>
+        
+    </head>
+    <body>
+        <script type = "text/javascript">
+            function handleResponse(response){
+                console.log("You are at IP Address " + response.ip + ", which is in " + 
+                                    response.country_name  + ".");
+                                    }
+                                    
+            var script = document.createElement("script");
+            script.src = "http://freegeoip.net/json/?callback=handleResponse";
+            document.body.insertBefore(script, document.body.firstChild);        
+        
+        </script>
+        
+    </body>
+
+</html>
